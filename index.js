@@ -9,7 +9,7 @@ require("dotenv").config();
 app.use(
   cors({
     // origin: "http://localhost:5173",
-    origin:"https://role-base-access-control.netlify.app/",
+    origin:"https://role-base-access-control.netlify.app",
     credentials: true,
   })
 );
