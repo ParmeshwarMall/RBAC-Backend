@@ -8,8 +8,8 @@ app.use(express.urlencoded({ extended: true }));
 require("dotenv").config();
 app.use(
   cors({
-    origin: "http://localhost:5173",
-    // origin:"https://role-base-access-control.netlify.app/",
+    // origin: "http://localhost:5173",
+    origin:"https://role-base-access-control.netlify.app/",
     credentials: true,
   })
 );
